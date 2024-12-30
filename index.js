@@ -11,7 +11,7 @@ app.use(express.json()) // req.body
 app.use(cookieParser()) // req.cookies
 app.use(express.static("dist")) // req.cookies
 app.use(cors({
-    origin: "http://localhost:5175",
+    origin: "https://sokettodo.onrender.com",
     credentials: true
 }))
 
